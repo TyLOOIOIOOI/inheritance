@@ -20,7 +20,7 @@ class Football_Player(Athlete):
 
     def __init__(self,ht,wt,bodyfat,position,team):
 
-        Athlete.__init__(self,ht,wt,bodyfat)
+        Athlete.__init__(self,ht,wt,bodyfat)  ##create superclass
 
         self.__position = position
         self.__team = team
